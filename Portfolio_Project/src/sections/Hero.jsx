@@ -1,5 +1,6 @@
 import { words } from "../constants"
 import Button from "../components/Button"
+import HeroExperience from "../components/HeroModels/HeroExperience.jsx"
 
 const Hero = () => {
   return (
@@ -9,6 +10,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-layout">
+            {/*LEFT SIDE: HERO CONTENT*/}
             <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                 <div className="flex flex-col gap-7">
                     <div className="hero-text">
@@ -41,8 +43,13 @@ const Hero = () => {
                     text="See my Work"/>
                 </div>
             </header>
-        </div>
 
+            <figure>
+                <div className="hero-3d-layout border-red-200 border-2">
+                    <HeroExperience />
+                </div>
+            </figure>
+        </div>
     </section>
   )
 }
