@@ -73,17 +73,17 @@ const abilities = [
     {
         imgPath: "/images/seo.png",
         title: "Quality Focus",
-        desc: "Delivering high-quality results while maintaining attention to every detail.",
+        desc: "Detail-oriented and committed to delivering high-quality results, ensuring accuracy and thoroughness in every task.",
     },
     {
         imgPath: "/images/chat.png",
         title: "Reliable Communication",
-        desc: "Keeping you updated at every step to ensure transparency and clarity.",
+        desc: "Excellent written and verbal communication skills with a proven ability to collaborate effectively as part of a team.",
     },
     {
         imgPath: "/images/time.png",
         title: "On-Time Delivery",
-        desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+        desc: "Proven ability to manage time effectively, prioritise tasks, and consistently deliver work on or ahead of schedule.",
     },
 ];
 
