@@ -3,6 +3,7 @@ import ShowcaseSection from "./sections/ShowcaseSection.jsx"
 import NavBar from "./components/NavBar.jsx"
 import FeatureCards from "./sections/FeatureCards.jsx"
 import TechStack from "./sections/TechStack.jsx"
+import Footer from "./sections/Footer.jsx"
 
 const app = () => {
   return (
@@ -12,6 +13,7 @@ const app = () => {
     <ShowcaseSection />
     <FeatureCards />
     <TechStack />
+    <Footer />
     </>
   )
 }
