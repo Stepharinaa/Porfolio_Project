@@ -4,28 +4,24 @@ const navLinks = [
         link: "#work",
     },
     {
-        name: "Experience",
-        link: "#experience",
+        name: "About Me",
+        link: "#aboutme",
     },
     {
         name: "Skills",
         link: "#skills",
     },
-    {
-        name: "Testimonials",
-        link: "#testimonials",
-    },
 ];
 
 const words = [
-    { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
-    { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
+    { text: "Clean", imgPath: "/images/code.svg" },
+    { text: "Tested", imgPath: "/images/concepts.svg" },
+    { text: "Reliable", imgPath: "/images/designs.svg" },
+    { text: "Impactful", imgPath: "/images/ideas.svg" },
+    { text: "Clean", imgPath: "/images/code.svg" },
+    { text: "Tested", imgPath: "/images/concepts.svg" },
+    { text: "Reliable", imgPath: "/images/designs.svg" },
+    { text: "Impactful", imgPath: "/images/ideas.svg" },
 ];
 
 const counterItems = [

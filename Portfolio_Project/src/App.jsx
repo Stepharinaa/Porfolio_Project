@@ -4,12 +4,14 @@ import NavBar from "./components/NavBar.jsx"
 import FeatureCards from "./sections/FeatureCards.jsx"
 import TechStack from "./sections/TechStack.jsx"
 import Footer from "./sections/Footer.jsx"
+import AboutMe from "./sections/AboutMe.jsx"
 
 const app = () => {
   return (
     <>
     <NavBar />
     <Hero />
+    <AboutMe />
     <ShowcaseSection />
     <FeatureCards />
     <TechStack />
