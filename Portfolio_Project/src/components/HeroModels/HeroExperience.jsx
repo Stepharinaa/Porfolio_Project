@@ -3,6 +3,7 @@ import { OrbitControls } from "@react-three/drei"
 import { useMediaQuery } from 'react-responsive'
 import { Room } from "./Room.jsx"
 import HeroLights from "./HeroLights.jsx"
+import { StephRoom } from "./Steph-room.jsx"
 
 const HeroExperience = () => {
     const isTablet = useMediaQuery({ query: '(max-width: 1024px)' })
@@ -29,7 +30,7 @@ const HeroExperience = () => {
                 position={[0, -3.5, 0]}
                 rotation={[0, -Math.PI / 4, 0]}
             >
-                <Room />
+                <StephRoom />
             </group>
         </Canvas>
     )
